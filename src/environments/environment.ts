@@ -5,15 +5,15 @@
 export const environment = {
   production: false,
   firebase: {
-    projectId: 'mytownbook-3a193',
-    appId: '1:267118481599:web:41d1d8666e72830fc3360a',
-    storageBucket: 'mytownbook-3a193.appspot.com',
-    apiKey: 'AIzaSyD_bb8TqlIWuRNgU6Tp67MWnMJp4LA8bqg',
-    authDomain: 'mytownbook-3a193.firebaseapp.com',
-    messagingSenderId: '267118481599',
-    measurementId: "G-EV8XWV5JT3",
+  apiKey: "AIzaSyD41dr0-1aEl68ZK_3t8fU8yf8usNrM8A0",
+  authDomain: "skillbank-1b8e3.firebaseapp.com",
+  projectId: "skillbank-1b8e3",
+  storageBucket: "skillbank-1b8e3.appspot.com",
+  messagingSenderId: "181973486376",
+  appId: "1:181973486376:web:77beeb1236b69fe6d89e1d",
+  measurementId: "G-LKDY4G0DZ2",
     vapidKey:
-      'BJEuGVoLS8tdEXb6YJR9Jv02e0jRGvf4mx5QvVscDdD-JVNkHEkooce9cV44uyTJ3mHrH0HzVzDi_3B8kIGBF8U',
+      'BHHkaZvBNxzBnegoQFj17cKVopugTmN_QS8RZ9m-F2GOLQsUvuHebiVJh1qyfmdqeatg9006ZWg3vFptm128nTQ',
   }
 };
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181973486376",
+    "project_id": "skillbank-1b8e3",
+    "storage_bucket": "skillbank-1b8e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181973486376:android:c11cd8199367dbbbd89e1d",
+        "android_client_info": {
+          "package_name": "com.mytownbook.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABvUsj-SVBhQhWo3EQ0z2LgWEeEfSh1tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

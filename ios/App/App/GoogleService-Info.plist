@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAx_RQMvrNfsYzt4rHYO7gTyMshm7x6mm0</string>
+	<string>AIzaSyBqSnD8dKa0QomLLWlhr9H3_XjO8menhJM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>267118481599</string>
+	<string>329060340562</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.mytownbook.app</string>
+	<string>com.nizeorg.app</string>
 	<key>PROJECT_ID</key>
-	<string>mytownbook-3a193</string>
+	<string>nizeorg-cf0e5</string>
 	<key>STORAGE_BUCKET</key>
-	<string>mytownbook-3a193.appspot.com</string>
+	<string>nizeorg-cf0e5.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:267118481599:ios:925d2673d832b527c3360a</string>
+	<string>1:329060340562:ios:c6b252223f11114720a08b</string>
 </dict>
 </plist>

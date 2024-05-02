@@ -61,6 +61,9 @@ captures/
 .externalNativeBuild
 .cxx/
 
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
+
 # Freeline
 freeline.py
 freeline/
@@ -92,9 +95,7 @@ capacitor-cordova-android-plugins
 # Copied web assets
 app/src/main/assets/public
 
-# Keystore
-debug.keystore
-keystore.properties
-
-# Google Services
-google-services.json
+# Generated Config files
+app/src/main/assets/capacitor.config.json
+app/src/main/assets/capacitor.plugins.json
+app/src/main/res/xml/config.xml

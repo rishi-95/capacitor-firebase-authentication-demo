@@ -1,0 +1,13 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="div-login">
+    <ion-input label="Phone number" label-placement="floating" type="tel" fill="outline"
+      placeholder="Enter phone number (+91 1111111111)" [(ngModel)]="phoneNumber" required maxlength="15"
+      mode="md" pattern="^\+\d\d{9,}$"></ion-input>
+    <ion-input *ngIf="verificationId" label="OTP" label-placement="floating" type="number" fill="outline"
+      placeholder="Enter your OTP" [(ngModel)]="verificationOtp" required maxlength="6" mode="md"></ion-input>
+    <div>
+      <ion-button color="black" (click)="login()" [disabled]="getLoginDisabled()">{{ verificationId ?
+        'Login' : 'Send OTP'}}</ion-button>
+    </div>
+  </div>
+</ion-content>

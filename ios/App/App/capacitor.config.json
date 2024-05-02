@@ -1,27 +1,21 @@
 {
-	"appId": "dev.robingenz.capacitor.firebaseauth.demo",
-	"appName": "capacitor-firebase-authentication-demo",
-	"bundledWebRuntime": false,
-	"npmClient": "npm",
+	"appId": "com.nizeorg.app",
+	"appName": "NizeOrg",
 	"webDir": "www",
 	"plugins": {
-		"SplashScreen": {
-			"launchShowDuration": 0
-		},
 		"FirebaseAuthentication": {
-			"skipNativeAuth": false,
 			"providers": [
-				"apple.com",
-				"facebook.com",
-				"github.com",
-				"google.com",
-				"microsoft.com",
-				"playgames.google.com",
-				"twitter.com",
-				"yahoo.com",
 				"phone"
-			]
+			],
+			"skipNativeAuth": false
 		}
 	},
-	"cordova": {}
+	"packageClassList": [
+		"FirebaseAuthenticationPlugin",
+		"FirebaseAuthenticationPlugin",
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin"
+	]
 }

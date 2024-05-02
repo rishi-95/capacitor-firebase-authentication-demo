@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "329060340562",
+    "project_id": "nizeorg-cf0e5",
+    "storage_bucket": "nizeorg-cf0e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329060340562:android:1bf704d337e6ae8220a08b",
+        "android_client_info": {
+          "package_name": "com.nizeorg.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSdHunRmWNndQF1dOl8Z1FESNu0Pw900"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

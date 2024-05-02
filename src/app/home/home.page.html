@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detail Page</ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="dark" fill="solid" (click)="signOut()">
+        <ion-icon slot="icon-only" name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div id="container" *ngIf="userInfo">
+    <div>
+      <strong>Phone Number: <span>{{ userInfo?.user?.phoneNumber }}</span></strong>
+    </div>
+    <div>
+      <strong>UID: <span>{{ userInfo?.user?.uid }}</span></strong>
+    </div>
+  </div>
+</ion-content>
